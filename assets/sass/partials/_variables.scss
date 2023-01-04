@@ -1,0 +1,42 @@
+// Merriweather and Open Sans.
+// Use the "Merriweather" font for headings, and "Open Sans" for text:
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Open+Sans:wght@400;500;600&display=swap");
+
+$header-height: 3rem;
+$default-line-height: 1.6;
+
+// Colors
+$black: #0e1111;
+$gray: #808080;
+$light-gray: #d3d3d3;
+$light: #f2f3f4;
+$white: #ffffff;
+$light-purple: #a55eea;
+$royal-blue: #3867d6;
+
+// Fonts & Typography
+$heading-font: "Merriweather", serif;
+$default-font: "Open Sans", sans-serif;
+
+$big-font-size: 3rem; // 48px
+$medium-font-size: 1.5rem; // 24px
+$normal-font-size: 1rem; // 16px
+$small-font-size: 0.875rem; // 14px
+
+$regular: 400;
+$semi-bold: 500;
+$bold: 700;
+
+/* Margin */
+$mb-1: 0.5rem;
+$mb-2: 1rem;
+$mb-3: 1.5rem;
+$mb-4: 2rem;
+$mb-5: 2.5rem;
+$mb-6: 3rem;
+
+/* z-index */
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
