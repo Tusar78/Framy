@@ -138,11 +138,30 @@ img {
   font-weight: 300;
   margin-right: 40px;
   padding: 3px 0;
-  transition: all .5s ease-in;
+  transition: all .5s ease-in-out;
 }
 
 .nav__link:hover {
   color: #907070;
+}
+
+.nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #907070;
+  transition: transform .5s ease-in-out;
+  transform-origin: right;
+  transform: scaleX(0);
+}
+
+.nav__link:hover::after {
+  transition: transform .5s ease-in-out;
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 
