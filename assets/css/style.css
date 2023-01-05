@@ -232,7 +232,7 @@ img {
   min-height: 800px;
 }
 
-.hero-container, 
+.hero-container,
 .sell-container,
 .outfit-container,
 .feature-container {
@@ -460,33 +460,27 @@ img {
 }
 
 /* =-= Feature Section =-= */
-.feature {
-  height: 100vh;
-  margin-top: 1;
-}
-
 .feature-container {
   border: 1px solid;
   border-color: #000 transparent #000 transparent;
-  background-color: #E2D7D7;
+  background-color: #e2d7d7;
   margin-top: 8vw;
 }
 
 .feature__title {
-    margin-top: 64px;
-    margin-bottom: 10px;
-    font-family: Italiana, sans-serif;
-    font-size: 70px;
-    line-height: 1.2;
-    font-weight: 400;
-    text-transform: capitalize;
+  margin-bottom: 10px;
+  font-family: Italiana, sans-serif;
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: capitalize;
 }
 
 .feature__pieces {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
-  margin-top: 44px;
+  margin-top: 45px;
   align-items: center;
 }
 
@@ -509,7 +503,56 @@ img {
 }
 
 .feature__pieces--price {
-opacity: 0.5;
-color: #000;
-font-size: 14px;
+  opacity: 0.5;
+  color: #000;
+  font-size: 14px;
 }
+
+/* =-= Service Section =-= */
+.service-container {
+  position: relative;
+  width: 100%;
+  max-width: 2000px;
+  border: 1px solid;
+  border-color: transparent transparent #000 transparent;
+}
+
+.services__wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service {
+  padding: 10vw 5vw 5vw;
+  height: 100%;
+  border-right: 1px solid #000;
+}
+
+.service__circle {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 50%;
+}
+
+.service__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Italiana, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.service__text {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.service:last-child {
+  border-right: none;
+}
+
+/* Instagram Section */
