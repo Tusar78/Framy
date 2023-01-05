@@ -427,7 +427,7 @@ img {
   max-width: 600px;
 }
 
-.outfil__img {
+.outfit__img {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -435,4 +435,25 @@ img {
   background-image: url("../image/pic3.jpg");
   background-position: 50% 50%;
   background-size: cover;
+}
+
+.outfit__img.bag {
+  background-image: url("../image/pic4.jpg");
+}
+
+.outfit__img.jeans {
+  background-image: url("../image/pic5.jpg");
+}
+
+.outfit__category.bag {
+  justify-content: flex-start;
+}
+
+.outfit__title-wrap.bag {
+  right: 20.2vw;
+  text-align: left;
+}
+
+.outfit__text.bag {
+  text-align: right;
 }
