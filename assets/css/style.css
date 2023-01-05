@@ -714,3 +714,31 @@ img {
 .footer__top-btn:hover {
   opacity: 0.8;
 }
+
+.footer__main {
+  padding: 0 5vw;
+  display: flex;
+  background-color: #907070;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+}
+
+.footer__copyright-text,
+.footer__main-list-item  {
+  margin-right: 40px;
+  color: #000;
+  font-size: 9px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.footer__main-list-item span {
+  color: #fff;
+}
+
+.footer__main-list-item.btn {
+  padding: 6px;
+  background-color: rgba(244, 242, 242, 0.2);
+  color: #fff;
+}
