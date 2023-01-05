@@ -556,6 +556,11 @@ img {
 }
 
 /* =-= Instagram Section =-= */
+.instagrams {
+  border: 1px solid;
+  border-color: transparent transparent #000 transparent;
+}
+
 .instagrams-container {
   position: relative;
   display: flex;
@@ -597,3 +602,4 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
