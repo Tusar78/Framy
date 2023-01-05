@@ -606,13 +606,37 @@ img {
 /* =-= Megamenu Section =-= */
 .megamenus-container {
   position: relative;
-  display: flex;
   width: 100%;
   height: 100%;
   max-width: 2000px;
   padding: 6vw;
+  border: 1px solid;
+  border-color: transparent transparent #000 transparent;
+}
+
+.megamenus__wrap {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .megamenus__logo {
   width: 110px;
+}
+
+.megamenu__title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Italiana, sans-serif;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.megamenu__link {
+  display: block;
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 300;
 }
