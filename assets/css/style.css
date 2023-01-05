@@ -231,7 +231,8 @@ img {
   min-height: 800px;
 }
 
-.hero-container {
+.hero-container, 
+.sell-container {
   position: relative;
   display: flex;
   width: 100%;
@@ -331,10 +332,34 @@ img {
   letter-spacing: 4px;
   text-transform: uppercase;
   cursor: pointer;
-  box-shadow: inset 0 0 10px rgba(144, 112, 112, 0.2);
+  box-shadow: inset 0 0 0 rgba(144, 112, 112, 0.2);
   transition: box-shadow 0.5s ease-in-out;
 }
 
 .hero__btn:hover {
-  box-shadow: inset 0 -70px 0 rgba(144, 112, 112, 0.2);
+  box-shadow: inset 0 -70px 10px rgba(144, 112, 112, 0.2);
+}
+
+/* =-= Sell Section =-= */
+.sell {
+  height: 100vh;
+}
+
+.sell__title--wrap {
+  display: flex;
+  width: 50vw;
+  margin-top: 25vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.sell__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Italiana, sans-serif;
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: capitalize;
 }
