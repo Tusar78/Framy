@@ -523,7 +523,7 @@ img {
 }
 
 .feature__piece {
-  /* width: 50%; */
+  width: 50%;
   margin-left: 10px;
   padding-left: 10px;
   margin-right: 10px;
@@ -958,6 +958,10 @@ img {
     width: 80vw;
   }
 
+  .feature__piece {
+    width: 100%;
+  }
+
   .feature__pieces {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1095,7 +1099,7 @@ img {
   .hero__img.one {
     top: 20rem;
     width: 50vw;
-    height: 20rem;
+    height: 17rem;
   }
 
   .hero__img.two {
