@@ -23,7 +23,7 @@ toggleBtn.addEventListener("click", () => {
   } else {
     toggleIcon.className = "bx bx-menu toggle__icon";
     navMenu.style.width = '0';
-    navMenu.style.left = '-20%';
+    navMenu.style.left = '-40%';
     navMenu.style.paddingLeft = '0';
   }
 });
