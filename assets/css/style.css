@@ -98,6 +98,7 @@ img {
   padding-top: 20px;
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .nav__logo {
@@ -282,7 +283,7 @@ img {
   justify-content: center;
   flex-wrap: nowrap;
   align-items: center;
-  z-index: -2;
+  z-index: 0;
 }
 
 .hero__images-wrap {
@@ -848,7 +849,7 @@ img {
 }
 
 /* =-= Media Query =-= */
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 768.98px) {
   .cart__search {
     display: none;
   }
@@ -872,6 +873,7 @@ img {
     align-items: center;
     padding-left: 0;
     transition: all .5s ease;
+    z-index: 1;
   }
 
   .nav__list {
