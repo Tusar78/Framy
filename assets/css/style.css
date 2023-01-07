@@ -1020,7 +1020,7 @@ img {
   }
 
   .footer__top-input {
-    margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
   }
 
   .footer__main {
@@ -1046,3 +1046,47 @@ img {
   }
 }
 
+@media screen and (max-width: 576.98px) {
+  .hero__img.one {
+    top: 21rem;
+    width: 45vw;
+    height: 25rem;
+  }
+
+  .sell__title,
+  .feature__title {
+    font-size: 50px;
+  }
+
+  .sell {
+    height: fit-content;
+  }
+
+  .feature__pieces {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .instagram {
+    height: 250px;
+  }
+
+  .megamenus__wrap {
+    grid-template-columns: 1fr;
+  }
+
+  .megamenu:nth-child(2) {
+    grid-column: 1;
+  }
+
+  .megamenu:nth-child(3) {
+    grid-column: 1;
+  }
+
+  .megamenu:nth-child(4) {
+    grid-column: 1;
+  }
+
+  .megamenu:nth-child(5) {
+    grid-column: 1;
+  }
+}
