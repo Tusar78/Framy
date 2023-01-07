@@ -936,6 +936,27 @@ img {
     width: 100%;
     right: 0;
     text-align: right;
-    margin-top: 5rem;
+  }
+  .outfit {
+    height: fit-content;
+  }
+
+  .outfit__title-wrap {
+    top: 0;
+    margin-bottom: 20px;
+  }
+
+  .sell__title--wrap {
+    margin-top: 0;
+  }
+
+  .sell__title--wrap {
+    width: 80vw;
+  }
+
+  .feature__pieces {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.5rem;
   }
 }
