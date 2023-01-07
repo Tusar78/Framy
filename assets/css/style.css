@@ -773,7 +773,7 @@ img {
   padding: 0 5vw;
   display: flex;
   background-color: #907070;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 40px;
 }
@@ -785,6 +785,10 @@ img {
   font-size: 9px;
   letter-spacing: 2px;
   text-transform: uppercase;
+}
+
+.footer__copyright-text {
+  margin-right: 0;
 }
 
 .footer__main-list-item span {
