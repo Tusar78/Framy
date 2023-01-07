@@ -265,7 +265,7 @@ img {
 
 .hero__img.one {
   top: 11vw;
-  width: 40vw;
+  width: 41vw;
   background: url(../image/pic1.jpg) no-repeat;
   background-size: cover;
 }
@@ -485,7 +485,7 @@ img {
 }
 
 .feature__piece {
-  width: 50%;
+  /* width: 50%; */
   margin-left: 10px;
   padding-left: 10px;
   margin-right: 10px;
