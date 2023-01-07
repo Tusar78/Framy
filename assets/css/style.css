@@ -1033,7 +1033,7 @@ img {
 
   .footer__main {
     flex-direction: column;
-    padding: 1rem;
+    padding: 0 0 1rem 0;
     height: fit-content;
   }
 
