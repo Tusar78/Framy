@@ -796,6 +796,14 @@ img {
   margin-top: 7px;
 }
 
+.fixedNav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #000;
+}
+
 /* =-= Media Query =-= */
 @media screen and (max-width: 767.98px) {
   .cart__search {
