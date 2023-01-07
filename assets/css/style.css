@@ -922,7 +922,7 @@ img {
     width: 38vw;
   }
 
-  .outfit__title-wrap {
+  .outfits {
     left: 0;
     text-align: left;
   }
@@ -930,5 +930,12 @@ img {
   .outfit__category {
     justify-content: flex-start;
     margin-top: 2rem;
+  }
+
+  .outfit__title-wrap.bag {
+    width: 100%;
+    right: 0;
+    text-align: right;
+    margin-top: 5rem;
   }
 }
