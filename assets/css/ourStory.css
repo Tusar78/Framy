@@ -376,7 +376,6 @@
   background-image: url("../image/pic16.jpg");
 }
 
-
 /* Responsible Section */
 .sustainable__content-img.responsible {
   background-image: url("../image/pic17.jpg");
@@ -479,7 +478,7 @@
   font-weight: 400;
   text-transform: capitalize;
   color: #f4f2f2;
-} 
+}
 
 .signup__text {
   font-size: 1rem;
@@ -516,7 +515,6 @@ input::placeholder {
   padding: 8px 12px;
   line-height: 1.4;
   color: #f4f2f2;
-  vertical-align: middle;
 }
 
 .signup__submit {
@@ -544,4 +542,45 @@ input::placeholder {
 
 .signup__submit:hover {
   opacity: 0.8;
+}
+
+/* =-= Media Queries =-= */
+@media screen and (max-width: 991.98px) {
+  .story__image {
+    width: 40vw;
+  }
+
+  .owner__image {
+    width: 45vw;
+  }
+
+  .statement__wrap {
+    grid-template-columns: 1fr 20%;
+  }
+
+  .statement2__wrap {
+    grid-template-columns: 20% 1fr;
+  }
+
+  .sustainable__content-image {
+    width: 20vw;
+  }
+
+  .signup-layout {
+    grid-template-columns: 30% 1fr;
+  }
+
+  .signup__images-wrap {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+
+  .signup__image-one--wrap {
+    margin-bottom: 40px;
+  }
+
+  .signup__image-two--wrap {
+    width: 25vw;
+  }
 }
