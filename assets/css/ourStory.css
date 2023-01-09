@@ -367,6 +367,15 @@
   background-size: cover;
 }
 
+/* Fair Section */
+.sustainable__content-img.fair {
+  background-image: url("../image/pic15.jpg");
+}
+
+.sustainable__img.fair {
+  background-image: url("../image/pic16.jpg");
+}
+
 
 /* Responsible Section */
 .sustainable__content-img.responsible {
