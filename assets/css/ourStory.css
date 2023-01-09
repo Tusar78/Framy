@@ -148,7 +148,7 @@
   width: 124px;
 }
 
-.statement {
+.statements {
   position: relative;
   display: flex;
   width: 100%;
@@ -192,6 +192,10 @@
   text-transform: capitalize;
 }
 
+.statements__wrap {
+  margin-top: 80px;
+}
+
 .statement {
   position: relative;
 }
@@ -204,6 +208,10 @@
   grid-row-gap: 16px;
   grid-template-columns: repeat(2, 1fr);
   border: 1px solid;
+  border-color: #000 transparent transparent transparent;
+}
+
+.statement:last-child .statement__wrap {
   border-color: #000 transparent #000 transparent;
 }
 
@@ -218,6 +226,7 @@
 
 .statement__content--text {
   font-size: 1rem;
+  line-height: 26px;
   font-weight: 300;
   margin: 10px 0 40px;
 }
