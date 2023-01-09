@@ -1059,6 +1059,10 @@ img {
 }
 
 @media screen and (max-width: 576.98px) {
+  .nav__logo--alt {
+    width: 90px;
+  }
+
   .hero__img.one {
     top: 21rem;
     width: 45vw;
