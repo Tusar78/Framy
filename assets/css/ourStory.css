@@ -546,6 +546,12 @@ input::placeholder {
 
 /* =-= Media Queries =-= */
 @media screen and (max-width: 991.98px) {
+  .story__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
   .story__image {
     width: 40vw;
   }
