@@ -366,3 +366,13 @@
   background-position: 50% 50%;
   background-size: cover;
 }
+
+
+/* Responsible Section */
+.sustainable__content-img.responsible {
+  background-image: url("../image/pic17.jpg");
+}
+
+.sustainable__img.responsible {
+  background-image: url("../image/pic2.jpg");
+}
