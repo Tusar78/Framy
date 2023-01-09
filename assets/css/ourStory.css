@@ -282,7 +282,7 @@
   grid-auto-columns: 1fr;
   grid-template-columns: repeat(2, 50%);
   border: 1px solid;
-  border-color: #000 transparent #000 transparent;
+  border-color: #000 transparent transparent transparent;
 }
 
 .sustainable__wrap {
