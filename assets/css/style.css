@@ -1010,6 +1010,10 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .megamenus__logo {
+    padding-left: 1rem;
+  }
+
   .megamenu {
     padding-left: 1rem;
   }
@@ -1123,7 +1127,7 @@ img {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
   }
 
   .feature__title {
