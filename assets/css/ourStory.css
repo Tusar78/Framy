@@ -463,3 +463,57 @@
   background-size: cover;
 }
 
+.signup__content-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.signup__title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: Italiana, sans-serif;
+  font-size: 70px;
+  line-height: 1.2;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: #f4f2f2;
+} 
+
+.signup__text {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 26px;
+  color: #f4f2f2;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.signup-form {
+  display: flex;
+}
+
+.signup__input {
+  width: 100%;
+  height: 50px;
+  margin-right: 10px;
+  border: 1px solid;
+  border-color: transparent transparent #e2d7d7;
+  outline: none;
+  background-color: transparent;
+  color: #e2d7d7;
+}
+
+input::placeholder {
+  color: #e2d7d7;
+}
+
+.signup__input--name,
+.signuo__input--email {
+  display: block;
+  font-size: 1rem;
+  padding: 8px 12px;
+  line-height: 1.4;
+  color: #f4f2f2;
+  vertical-align: middle;
+}
